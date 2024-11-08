@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: TS-Reg, TS-Med, sans-serif;
+  background-color: white;
+  max-width: 1470px;
+}
+
+header {
+  max-width: 1096px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+.logoHeader {
+  padding-top: 8px;
+  height: 50px;
+}
+main {
+  max-width: 1096px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+header ul li {
+  height: 40px;
+  padding: 11px;
+  background-color: white;
+
+  border-radius: 30px;
+  align-items: center;
+}
+header ul li p {
+  font-family: TS-Med;
+}
+header ul li:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+li:nth-of-type(1) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+li:nth-of-type(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+li:nth-of-type(3) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+li:nth-of-type(4) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+li:nth-of-type(5) {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+.buttonConnect {
+  padding: 11px;
+  padding-inline: 15px;
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: TS-Med;
+}
+.buttonConnect:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.mainTitleFirstWord {
+  font-size: 54px;
+  color: #fe5d5d;
+  font-weight: bold;
+  font-family: TS-Med;
+  margin-bottom: 15px;
+}
+
+main div h1 span {
+  font-size: 54px;
+  color: black;
+}
+.miniSoustitre {
+  font-size: 14px;
+  color: #333333;
+  padding-bottom: 10px;
+}
+.categories {
+  margin: 20px auto;
+  display: flex;
+  gap: 15px;
+}
+.subCategories {
+  flex: 1;
+  border: solid 1px black;
+  border-radius: 14px;
+  font-family: TS-Med;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.subCategories:hover {
+  background-color: black;
+  color: white;
+}
+
+.imgs {
+  /*border: solid 1px black;*/
+
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+.leftImage {
+  flex: 1.3;
+}
+.leftImagee {
+  height: 435px;
+  width: 616px;
+}
+.leftImagee:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.buttonConnectPic {
+  padding: 11px;
+  padding-inline: 15px;
+  font-size: 12px;
+  border-radius: 30px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: TS-Med;
+  /*----- Positionnement sur l'image ----*/
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+}
+.buttonConnectPic:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.rightImageUp {
+  flex: 1;
+}
+.rightUpImg {
+  height: 216px;
+  width: 478px;
+  object-fit: cover;
+}
+.rightUpImg:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.rightImageDown {
+  flex: 1;
+  padding-bottom: 36px;
+}
+.rightDownImg {
+  height: 216px;
+  width: 478px;
+  object-fit: cover;
+}
+.rightDownImg:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.twoRightImages {
+  display: flex;
+  flex-direction: column;
+}
+.textUnderImgs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.Localisation {
+  display: flex;
+  gap: 15px;
+}
+.styleOfLoc {
+  font-size: 12px;
+}
+.styleOfLoc:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.styleOfLoc1 {
+  font-size: 12px;
+}
+.local {
+  font-size: 12px;
+}
+
+/*---------------Section 3 --------------*/
+.sectionParis {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin-bottom: 70px;
+}
+.titreH2 {
+  font-size: 30px;
+  font-family: TS-Med;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.textVilleParis {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.description2 {
+  border-radius: 20px;
+}
+.titre2_H2 {
+  padding-top: 40px;
+  padding-left: 35px;
+  font-size: 30px;
+  font-family: TS-Med;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.littleTextMap {
+  padding: 35px;
+}
+.map {
+  width: 430px;
+  height: 190px;
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.upMap {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 430px;
+  height: 300px;
+  background-color: #fe5d5d;
+}
+.buttonVoyage {
+  margin-left: 35px;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-family: TS-Med;
+}
+.buttonVoyage:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+h3 {
+  font-size: 24px;
+  font-family: TS-Med;
+  margin-bottom: 20px;
+}
+.txtLieux {
+  font-size: 20px;
+  font-family: TS-Reg;
+  margin-bottom: 20px;
+}
+.linkLieux {
+  text-decoration: underline;
+  color: #545454;
+}
+.imgsEndroits {
+  height: 192px;
+  width: 256px;
+  position: relative;
+}
+
+.imgsEndroits:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.endroits {
+  display: flex;
+  gap: 15px;
+  overflow: scroll;
+  flex: 3;
+}
+.lieux {
+  display: flex;
+  margin-bottom: 100px;
+}
+.seDivertir {
+  flex: 1;
+}
+.textCarrousel {
+  font-family: TS-Med;
+}
+.textCarrousel:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.iconsRates {
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.littleTextCarrousel {
+  font-size: 12px;
+}
+.heartOnImg {
+  display: flex;
+}
+
+/*---------------  Restos ---------------*/
+
+.restos {
+  display: flex;
+  gap: 15px;
+  overflow: scroll;
+  flex: 3;
+}
+.restaurants {
+  display: flex;
+  margin-bottom: 100px;
+}
+.txtRestos {
+  font-size: 20px;
+  font-family: TS-Reg;
+  margin-bottom: 20px;
+}
+.seRestaurer {
+  flex: 1;
+}
+
+/*-------Last Section Vistes*/
+.lastSection {
+  margin-bottom: 100px;
+}
+.imgVisit {
+  width: 355px;
+  height: 274px;
+}
+.titleVisit {
+  font-size: 18px;
+  font-family: TS-Med;
+}
+.divVisit {
+  display: flex;
+  gap: 20px;
+  overflow: scroll;
+}
+.nbArticles {
+  font-size: 14px;
+  font-family: TS-Reg;
+  margin-bottom: 8px;
+}
+.forkIcon {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+.logo_visit {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nbArt {
+  font-size: 14px;
+  font-family: TS-Reg;
+}
+/*-------- Footer ------------*/
+footer {
+  background-color: #f9f1ec;
+  line-height: 150px;
+}
+.divFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logoTripFooter {
+  height: 40px;
+  width: 40px;
+}
+.linkReacteur {
+  text-decoration: none;
+  color: black;
+}
+
+/*----------- Responsive ------------*/
+
+@media (max-width: 1024px) {
+  .textButtonsHeader {
+    display: none;
+  }
+}
